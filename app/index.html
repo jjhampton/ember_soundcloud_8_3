@@ -19,6 +19,12 @@
 
     <script src="assets/vendor.js"></script>
     <script src="assets/ember-soundcloud-8-3.js"></script>
+    <script src="http://connect.soundcloud.com/sdk-2.0.0.js"></script>
+    <script>
+      SC.initialize({
+        client_id: "64a2f26a846f84e144d1e76406738e41"
+      });
+    </script>
 
     {{content-for 'body-footer'}}
   </body>
