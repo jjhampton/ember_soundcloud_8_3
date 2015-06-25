@@ -1,3 +1,6 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<h1>Soundcloud</h1>
+{{track-info artist=model.user.username title=model.title description=model.description plays=model.playback_count artwork=model.artwork_url loves=model.favoritings_count}}
+<hr>
+{{track-controls}}
 
 {{outlet}}
