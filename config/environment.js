@@ -22,7 +22,7 @@ module.exports = function(environment) {
       'default-src': "'self'",
       'script-src': "'self' 'unsafe-inline' connect.soundcloud.com",
       'font-src': "'self' fonts.gstatic.com",
-      'connect-src': "'self'",
+      'connect-src': "'self' api.soundcloud.com",
       'img-src': "'self'",
       'style-src': "'self' fonts.googleapis.com",
       'media-src': "'self'"
