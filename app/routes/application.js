@@ -1,12 +1,14 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+
   model: function() {
-    return Ember.RSVP.hash({
-      track: SC.get("/groups/55517/tracks", {limit: 1}, function(tracks){
-        console.log(tracks);
-        return tracks;
-      })
-    });
+    return Ember.$.getJSON('https://api.soundcloud.com/tracks/205463734?client_id=64a2f26a846f84e144d1e76406738e41');
   }
+
 });
+
+
+// track: SC.get("/tracks/205463734", function(track){
+//   console.log(track);
+// })
