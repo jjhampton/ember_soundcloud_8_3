@@ -7,8 +7,3 @@ export default Ember.Route.extend({
   }
 
 });
-
-
-// track: SC.get("/tracks/205463734", function(track){
-//   console.log(track);
-// })

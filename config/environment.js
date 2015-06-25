@@ -23,7 +23,7 @@ module.exports = function(environment) {
       'script-src': "'self' 'unsafe-inline' connect.soundcloud.com",
       'font-src': "'self' fonts.gstatic.com",
       'connect-src': "'self' api.soundcloud.com",
-      'img-src': "'self'",
+      'img-src': "'self' i1.sndcdn.com",
       'style-src': "'self' fonts.googleapis.com",
       'media-src': "'self'"
     }

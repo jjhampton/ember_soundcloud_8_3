@@ -1,4 +1,6 @@
 <h1>Soundcloud</h1>
-{{track-info artist=model.user.username title=model.title description=model.description plays=model.playback_count loves=model.favoritings_count}}
+{{track-info artist=model.user.username title=model.title description=model.description plays=model.playback_count artwork=model.artwork_url loves=model.favoritings_count}}
+<hr>
+{{track-controls}}
 
 {{outlet}}
