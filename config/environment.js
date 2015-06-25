@@ -20,12 +20,12 @@ module.exports = function(environment) {
 
     contentSecurityPolicy: {
       'default-src': "'self'",
-      'script-src': "'self' 'unsafe-inline' connect.soundcloud.com",
+      'script-src': "'self' 'unsafe-inline' 'unsafe-eval' connect.soundcloud.com",
       'font-src': "'self' fonts.gstatic.com",
       'connect-src': "'self' api.soundcloud.com",
       'img-src': "'self' i1.sndcdn.com",
       'style-src': "'self' fonts.googleapis.com",
-      'media-src': "'self'"
+      'media-src': "'self' cf-media.sndcdn.com"
     }
   };
 
